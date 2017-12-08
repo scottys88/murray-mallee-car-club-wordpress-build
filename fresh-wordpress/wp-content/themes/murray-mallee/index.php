@@ -46,13 +46,15 @@
 					<p class="news-date"><?php the_time('d/m/y')?></p>
 					<p class="feature-news-article"><?php the_excerpt('Read more'); ?></p>
 					<a href="<?php the_permalink(); ?>" class="read-more">Read the rest of the article</a>
-					<br><a href="news-listing.html" class="button button-primary">Read all news</a>
+					<br><a href="news" class="button button-primary">Read all news</a>
 				</div>
 				<?php $i++; endwhile; ?>
 			</div>
 
 		</div>
 			<div class="row news-row">
+
+	
 				<?php $catquery = new WP_Query( 'cat=4' ); ?>
 				<?php $i = 1; while($catquery -> have_posts() && $i < 2) : $catquery -> the_post(); ?>
 				
@@ -67,7 +69,7 @@
 					<p class="news-date"><?php the_time('d/m/y')?></p>
 					<p class="feature-news-article"><?php the_excerpt('Read more'); ?></p>
 					<a href="<?php the_permalink(); ?>" class="read-more">Find out more</a>
-					<br><a href="events-listing.html" class="button button-primary">See all of our events</a>
+					<br><a href="events" class="button button-primary">See all of our events</a>
 				</div>
 				<?php $i++; endwhile; ?>
 			</div>

@@ -4,7 +4,7 @@
   <!-- Basic Page Needs
   ––––––––––––––––––––––––––––––––––––––––––––––––––-->
   <meta charset="utf-8">
-  <title><?php bloginfo('title')?></title>
+  <title><?php bloginfo('title')?> - <?php the_title() ?></title>
 
 
   <!-- Mobile Specific Metas
@@ -39,6 +39,9 @@
 	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon//favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="96x96" href="images/favicon//favicon-96x96.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="images/favicon//favicon-16x16.png">
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />
 
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
@@ -75,11 +78,11 @@
 
 	
 		<nav>
-			<a href="news-listing.html">Club News</a>
-			<a href="events-listing.html">Events</a>
-			<a href="membership.html">Membership</a>
-			<a href="conditional-membership.html">Conditional Registration</a>
-			<a href="contact.html" id="phone-icon"><i class="ion-ios-telephone"></i></a>
+			<a href="news">Club News</a>
+			<a href="events">Events</a>
+			<a href="membership">Membership</a>
+			<a href="conditional-registration">Conditional Registration</a>
+			<a href="contact" id="phone-icon"><i class="ion-ios-telephone"></i></a>
 		</nav>
 
 	</div>

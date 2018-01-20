@@ -29,7 +29,7 @@
 	<container>
 		<div class="row news-row">
 			<div class="six columns">
-				<?php query_posts('cat=-4'); ?>
+				<?php query_posts('cat=-2'); ?>
 				<?php $i = 1; while(have_posts() && $i < 2) : the_post(); ?>
 				<?php $thumb_id = get_post_thumbnail_id();
 				$thumb_url_array = wp_get_attachment_image_src($thumb_id, 'full', true);
@@ -55,7 +55,7 @@
 			<div class="row news-row">
 
 	
-				<?php $catquery = new WP_Query( 'cat=4' ); ?>
+				<?php $catquery = new WP_Query( 'cat=2' ); ?>
 				<?php $i = 1; while($catquery -> have_posts() && $i < 2) : $catquery -> the_post(); ?>
 				
 			<div class="six columns">
@@ -78,51 +78,51 @@
 		<!--Begin the Membership banner section-->
 		
 		 
-		<div class="membership-banner" style="background-image: url(<?php the_field('membership_banner', 8); ?>);">
+		<div class="membership-banner" style="background-image: url(<?php the_field('membership_banner', 16); ?>);">
 
-			<h2><?php the_field('membership_banner_heading', 8); ?></h2>
+			<h2><?php the_field('membership_banner_heading', 16); ?></h2>
 		
 		</div>
 		
 		<div class="row membership-para">
 			<p>
-				<?php the_field('membership_banner_description', 8); ?>
+				<?php the_field('membership_banner_description', 16); ?>
 				
 			</p>
-			<a href="<?php the_field('membership_banner_button_url', 8); ?>" class="button button-primary"><?php the_field('membership_banner_button_text', 8); ?></a>
+			<a href="<?php the_field('membership_banner_button_url', 16); ?>" class="button button-primary"><?php the_field('membership_banner_button_text', 16); ?></a>
 		</div>
 
 		
-		<div class="row events-banner" style="background-image: url(<?php the_field('events_banner_image', 8); ?>);">
-			<h2><?php the_field('events_banner_heading', 8); ?></h2>
+		<div class="row events-banner" style="background-image: url(<?php the_field('events_banner_image', 16); ?>);">
+			<h2><?php the_field('events_banner_heading', 16); ?></h2>
 		</div>
 		<div class="row events-para">
 			<p>
-				<?php the_field('events_banner_description', 8); ?>
+				<?php the_field('events_banner_description', 16); ?>
 			</p>
-			<a href="<?php the_field('events_banner_button_url', 8); ?>" class="button button-primary"><?php the_field('events_banner_button_text', 8); ?></a>
+			<a href="<?php the_field('events_banner_button_url', 16); ?>" class="button button-primary"><?php the_field('events_banner_button_text', 16); ?></a>
 		</div>
 		<div class="gallery">
 			<div class="gallery-images clearfix">
 				<ul>
 					<li class="gallery-image">
-						<img src="<?php the_field('home_page_image_gallery_image_1', 8); ?>" class="gallery-image">
+						<img src="<?php the_field('home_page_image_gallery_image_1', 16); ?>" class="gallery-image">
 					</li>
 					<li class="gallery-image">
-						<img src="<?php the_field('home_page_image_gallery_image_2', 8); ?>" class="gallery-image">
+						<img src="<?php the_field('home_page_image_gallery_image_2', 16); ?>" class="gallery-image">
 					</li>
 					<li class="gallery-image">
-						<img src="<?php the_field('home_page_image_gallery_image_3', 8); ?>" class="gallery-image">
+						<img src="<?php the_field('home_page_image_gallery_image_3', 16); ?>" class="gallery-image">
 					</li>
 
 					<li class="gallery-image">
-						<img src="<?php the_field('home_page_image_gallery_image_4', 8); ?>" class="gallery-image">
+						<img src="<?php the_field('home_page_image_gallery_image_4', 16); ?>" class="gallery-image">
 					</li>
 					<li class="gallery-image">
-						<img src="<?php the_field('home_page_image_gallery_image_5', 8); ?>" class="gallery-image">
+						<img src="<?php the_field('home_page_image_gallery_image_5', 16); ?>" class="gallery-image">
 					</li>
 					<li class="gallery-image">
-						<img src="<?php the_field('home_page_image_gallery_image_6', 8); ?>" class="gallery-image">
+						<img src="<?php the_field('home_page_image_gallery_image_6', 16); ?>" class="gallery-image">
 					</li>
 				</ul>
 			</div>

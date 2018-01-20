@@ -199,13 +199,18 @@
 	
 	#footer-nav {
 		top: 50%;
+		padding-top: 30px;
 	}
 	
-	#footer-nav li a {
+	#footer-nav a {
 		text-decoration: none;
 	}
 	
 	.feature-events {
+		text-align: center;
+	}
+	
+	.footer-social {
 		text-align: center;
 	}
 	

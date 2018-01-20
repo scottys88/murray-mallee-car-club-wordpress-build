@@ -10,6 +10,8 @@
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
+<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -74,10 +76,11 @@
 	<div class="header-limiter">
 		
 
-		<h1><a href="/fresh-wordpress/home"><img src="<?php the_field('header_logo', 8); ?>" id="header-image"></a></h1>
+		<h1><a href="home"><img src="<?php the_field('header_logo', 16); ?>" id="header-image"></a></h1>
 
 	
 		<nav>
+			<a href="home">Home</a>
 			<a href="news">Club News</a>
 			<a href="events">Events</a>
 			<a href="membership">Membership</a>

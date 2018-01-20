@@ -12,7 +12,7 @@
 	</div>
 
 
-	<?php query_posts('cat=-4'); ?>
+	<?php query_posts('cat=-2'); ?>
 	<?php $i = 1; while(have_posts() && $i < 5) : the_post(); ?>
 	<div class="container news-articles">
 	<div class="row news" style="border-bottom: 0.5px solid #a5a5a5;">

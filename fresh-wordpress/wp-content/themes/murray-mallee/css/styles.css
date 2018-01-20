@@ -2,6 +2,13 @@
 	overflow: hidden;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+body {
+  position: relative
+}
+
 /**************Main Nav**************/
 #nav {
   list-style: none;

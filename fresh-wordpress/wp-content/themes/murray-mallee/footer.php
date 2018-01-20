@@ -1,17 +1,16 @@
 		<div class="row footer">
 			<ul id="footer-nav">
-				  <a href="fresh-wordpress/home"><li>Home</li></a>
+				  <a href="home"><li>Home</li></a>
 				  <a href="news"><li>Club News</li></a>
 				  <a href="events"><li>Events</li></a>
 				  <a href="membership"><li>Membership</li></a>
 				  <a href="about"><li>About the Club</li></a>
 				  <a href="conditional-registration"><li>Conditional Registration</li></a>
 				  <a href="contact"><li>Contact Us</li></a>
+
+				<a href="http://www.scoder.com.au"><li>&copy; Website by scoder.com.au</li></a>
+				<a href="https://www.facebook.com/malleetorque"><li><i class="ion-social-facebook" style="font-size: 150%;"></i></li></a>
 			</ul>
-			<div class="row footer-social">
-				<a href="http://www.scoder.com.au" class="site-credits">&copy; Website by scoder.com.au</a>
-				<a href="https://www.facebook.com/malleetorque"><i class="footer ion-social-facebook"></i></a>
-			</div>
 
 
 		</div>
